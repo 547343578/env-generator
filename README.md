@@ -6,7 +6,7 @@ The **EnvVar Extractor** plugin is a powerful tool designed for Java developers 
 
 ## Key Features
 
-- **Automatic Extraction:** Seamlessly extracts environment variables from various configuration files such as `application.properties`, `application.yaml`, and `application.yml`.
+- **Automatic Extraction:** Seamlessly extracts environment variables from various configuration files such as `application*.properties`, `application*.yaml`, and `application*.yml`.
 - **Avoid Duplicates:** Ensures that each environment variable is listed only once, preventing redundant entries in the `.env` file.
 - **Flexible File Support:** Works with multiple types of configuration files, accommodating different project setups.
 - **Easy Integration:** Integrates directly into the IntelliJ IDEA tools menu for quick access and ease of use.
