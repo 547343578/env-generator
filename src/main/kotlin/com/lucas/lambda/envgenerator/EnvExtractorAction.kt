@@ -14,7 +14,7 @@ class EnvExtractorAction : AnAction() {
             val generator = EnvFileGenerator()
             val filePath = "${project.basePath}/.env"
             generator.generateEnvFile(envVars, filePath)
-            Messages.showInfoMessage("Archivo .env generado", "Éxito")
+            Messages.showInfoMessage("Generated .env file", "Info")
         }
     }
 }
